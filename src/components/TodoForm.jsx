@@ -20,7 +20,7 @@ const[newtodo, setnewTodo] = useState("")
   return(
     <form action="" onSubmit={add} style={{display:"flex", justifyContent:"space-between"}}>
 
-    <input type="text" value={newtodo} onChange={(e)=>{
+    <input type="text" placeholder="Enter Your Task....." value={newtodo} onChange={(e)=>{
           
           setnewTodo(e.target.value);
           
